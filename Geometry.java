@@ -25,6 +25,52 @@ public class Geometry
         return 4.0 / 3.0 * Math.PI * Math.pow(radius, 3);
     }
     
+      public static double pararlellogramArea(double base, double height) 
+    {
+        return base * height;
+    }
+    
+          public static double trapezoidArea(double base1, double base2, double height) 
+    {
+        return (base1+base2)/2.0 * height;
+    }
+    
+          public static double rectangularPrismVolume(double height, double length, double width) 
+    {
+        return height * length * width;
+    }
+    
+          public static double coneVolume(double radius, double height) 
+    {
+        return Math.PI * Math.pow(radius, 2) * (height / 3.0);
+    }
+    
+          public static double rectangularPrismSurfaceArea(double length, double width, double height) 
+    {
+        return 2.0*((length*width)+(length*height)+(height*width));
+    }
+    
+          public static double sphereSurfaceArea(double radius) 
+    {
+        return 4.0 * Math.PI * Math.pow(radius, 2);
+    }
+    
+          public static double rightTriangleHypotenuse(double height, double length) 
+    {
+        Math.pow((Math.pow(height, 2) * Math.pow(length, 2)), 0.5);
+    }
+    
+          public static double distanceBetweenPoints(double x1, ) 
+    {
+        
+    }
+    
+          public static double slopeBetweenPoints() 
+    {
+        
+    }
+    
+    
     public static void main(String[] args) 
     {
         double ta1 = triangleArea(4.2, 8.1);
