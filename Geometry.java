@@ -13,6 +13,8 @@ public class Geometry
      *
      * @param base for the base length of the shape
      * @param height for the height of the shape
+     * 
+     * @return returns the area of the triangle
      */
     public static double triangleArea(double base, double height) 
     {
@@ -26,6 +28,8 @@ public class Geometry
      *
      * @param length for the length of the shape
      * @param width for the width of the shape
+     * 
+     * @return returns the area of the rectangle
      */
     public static double rectangleArea(double length, double width) 
     {
@@ -37,6 +41,8 @@ public class Geometry
      *
      * @param base for the base length of the shape
      * @param height for the height of the shape
+     * 
+     * @return returns the area of the parallelogram
      */
     public static double paralellogramArea(double base, double height) 
     {
@@ -49,6 +55,8 @@ public class Geometry
      * @param base1 for the smaller base of the shape
      * @param base2 for the larger base of the shape
      * @param height for the height of the shape
+     * 
+     * @return returns the area of the trapezoid
      */
     public static double trapezoidArea(double base1, double base2, double height) 
     {
@@ -61,6 +69,8 @@ public class Geometry
      * @param length for the length of the shape
      * @param height for the height of the shape
      * @param width for the width of the shape
+     * 
+     * @return returns the volume of the rectangular prism
      */
     public static double rectangularPrismVolume(double height, double length, double width) 
     {
@@ -72,6 +82,8 @@ public class Geometry
      *
      * @param radius for the radius of the shape
      * @param height for the height of the shape
+     * 
+     * @return returns the volume of the cone
      */
     public static double coneVolume(double radius, double height) 
     {
@@ -84,6 +96,8 @@ public class Geometry
      * @param length for the length of the shape
      * @param height for the height of the shape
      * @param width for the width of the shape
+     * 
+     * @return returns the surface area of the rectangular prism
      */
     public static double rectangularPrismSurfaceArea(double length, double width, double height) 
     {
@@ -94,6 +108,8 @@ public class Geometry
      * calculates the surface area of a sphere
      *
      * @param radius for the radius of the shape
+     * 
+     * @return returns the surface area of the sphere
      */
     public static double sphereSurfaceArea(double radius) 
     {
@@ -105,6 +121,8 @@ public class Geometry
      *
      * @param length for the length of the shape (non-hypotenuse side)
      * @param height for the height of the shape (other non-hypotenuse side)
+     * 
+     * @return returns length of the hypotenuse
      */
     public static double rightTriangleHypotenuse(double height, double length) 
     {
@@ -118,6 +136,8 @@ public class Geometry
      * @param y1 for the y coordinate of the first point
      * @param x2 for the x coordinate of the second point
      * @param y2 for the y coordinate of the second point
+     * 
+     * @return returns the distance between the points
      */
     public static double distanceBetweenPoints(double x1, double x2, double y1, double y2) 
     {
@@ -131,6 +151,8 @@ public class Geometry
      * @param y1 for the y coordinate of the first point
      * @param x2 for the x coordinate of the second point
      * @param y2 for the y coordinate of the second point
+     * 
+     * @return returns the slope of the line connecting  the points
      */
     public static double slopeBetweenPoints(double x1, double x2, double y1, double y2) 
     {
@@ -143,6 +165,8 @@ public class Geometry
      * @param a for one side of the triangle
      * @param b for a side of the triangle that isn't a
      * @param c for the remaining side of the triangle
+     * 
+     * @return returns the area of the triangle
      */
     public static double triangleAreaSides(double a, double b, double c)
     {
